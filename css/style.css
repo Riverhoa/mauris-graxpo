@@ -1,0 +1,747 @@
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  max-width: 1366px;
+  margin: auto;
+}
+.title {
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 105px;
+}
+.p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+hr.small {
+  height: 3px;
+  background-color: darkgrey;
+  width: 3%;
+}
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+header .nav {
+  margin-top: 60px;
+}
+header b {
+  font-family: 'Leckerli One', cursive;
+  font-size: 28px;
+  color: red;
+}
+header a {
+  color: black;
+  float: right;
+  font-family: '@textfont', sans-serif;
+  font-size: 14px;
+  padding-right: 30px;
+}
+header a:hover {
+  color: black;
+  text-decoration: none;
+}
+header .slogan {
+  text-align: center;
+  padding: 300px 0px;
+}
+header .slogan h1 {
+  font-family: Roboto;
+  font-size: 35px;
+}
+header .slogan p {
+  font-family: Open Sans;
+  font-size: -24px;
+}
+header .foot {
+  text-align: center;
+  margin-bottom: 55px;
+}
+header .foot img {
+  display: block;
+  margin: auto;
+}
+header .foot span {
+  color: red;
+  font-size: 12px;
+  font-family: Open Sans;
+}
+/*about*/
+.about h5 {
+  font-family: Roboto;
+  font-size: 20px;
+  padding-top: 105px;
+}
+.about hr {
+  margin-left: 0px;
+  width: 8%;
+  margin-top: 20px;
+}
+.about p {
+  font-family: Open Sans;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  line-height: 25px;
+  color: grey;
+}
+.about button {
+  font-family: Roboto;
+  font-size: 16px;
+}
+/*service*/
+.service {
+  margin-bottom: 75px;
+}
+.service .intro {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+  padding-bottom: 60px;
+}
+.service .col-sm-6 {
+  border: 3px solid lightgrey;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: grey;
+}
+.service .col-sm-6 i {
+  font-size: 2.5em;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 25px;
+}
+.service .col-sm-6 .fa.fa-mobile-phone {
+  padding: 30px 40px;
+}
+.service .col-sm-6 .col-sm-9 {
+  padding: 40px 0px;
+  font-family: Open Sans;
+  font-size: 14px;
+}
+.service .col-sm-6 .col-sm-9 hr {
+  width: 8%;
+  margin-left: 0px;
+}
+.service .col-sm-6 .col-sm-9 h5 {
+  font-family: Roboto;
+  font-size: 16px;
+}
+.service .col-sm-6:hover {
+  background-color: red;
+  color: white;
+}
+.service .col-sm-6:hover i {
+  background-color: white;
+  color: red;
+}
+.service .x {
+  margin-left: -20px;
+}
+.service .y {
+  margin-left: 20px;
+}
+/*sta*/
+.statistics .inside {
+  background-color: red;
+  opacity: 0.8;
+  color: white;
+  font-family: Roboto;
+  padding-top: 145px;
+  padding-bottom: 115px;
+}
+.statistics .inside i,
+.statistics .inside span {
+  font-size: 30px;
+}
+.statistics .inside h6 {
+  font-size: 16px;
+  padding-top: 30px;
+}
+.statistics .inside hr {
+  width: 15%;
+  margin-left: 0px;
+}
+/*step*/
+.step p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.step .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.step .row hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+}
+.step .row a {
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+.step .row a i {
+  font-size: 3em;
+  color: red;
+  padding: 25px;
+}
+.step .row a .fa.fa-mobile-phone {
+  padding: 25px 35px;
+}
+.step .row .phone {
+  margin-left: 150px;
+}
+.step .row .ran {
+  margin-right: 170px;
+}
+.step .col-sm-4 {
+  padding-top: 55px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.step .col-sm-4 h6 {
+  font-family: Roboto;
+  font-size: 16px;
+}
+.step .col-sm-4 span {
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: 30px;
+  color: grey;
+}
+/*work*/
+.work .container {
+  width: 1366px;
+  padding: 0px;
+}
+.work p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.work .col-sm-4 {
+  padding: 0px;
+  margin-top: 70px;
+}
+.work .col-sm-4 .over {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+  color: white;
+  text-align: center;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+.work .col-sm-4 .over span {
+  font-family: Open Sans;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 130px;
+  left: 150px;
+}
+.work .col-sm-4:hover .over {
+  opacity: 0.6;
+}
+/*best*/
+.best p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.best .container {
+  width: 1366px;
+  background-color: red;
+  color: white;
+  margin-top: 60px;
+}
+.best .container .text {
+  padding: 100px 0px;
+}
+.best .container h6 {
+  font-family: Roboto;
+  font-size: 16px;
+}
+.best .container hr {
+  width: 6%;
+  margin-left: 0px;
+}
+.best .container span {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+.best .container .img {
+  padding: 0px;
+}
+.best .container .middle {
+  position: relative;
+}
+.best .container .middle .text {
+  padding: 100px 100px;
+}
+.best .container .middle img.img-responsive {
+  position: absolute;
+  right: 0;
+}
+/*idea*/
+.idea .in {
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  padding: 90px 0px 100px;
+}
+.idea .in h3 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.idea .in h5 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 25px 0px 30px;
+}
+.idea .in button {
+  font-family: Open Sans;
+  font-size: 16px;
+  padding: 15px;
+}
+/*porfolio*/
+.porfolio p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.porfolio .button-group {
+  padding-top: 75px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+.porfolio .button-group button {
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+.porfolio .container {
+  width: 1366px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  /* Create four equal columns that sits next to each other */
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+}
+.porfolio .container .element-item {
+  position: relative;
+}
+.porfolio .container .over {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+  background-color: red;
+  color: white;
+  font-family: Roboto;
+  opacity: 0;
+}
+.porfolio .container .over .o {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+.porfolio .container .over h6 {
+  font-size: 20px;
+}
+.porfolio .container .over span {
+  font-size: 16px;
+}
+.porfolio .container .over hr {
+  width: 20%;
+  margin-left: 0px;
+}
+.porfolio .container .element-item:hover .over {
+  opacity: 0.7;
+}
+.porfolio .container .one {
+  flex: 28%;
+  max-width: 28%;
+  padding: 0px;
+}
+.porfolio .container .one #chai {
+  height: 498px;
+}
+.porfolio .container .one #round {
+  height: 208px;
+}
+.porfolio .container .two {
+  flex: 36.5%;
+  max-width: 36.5%;
+  padding: 0px;
+}
+.porfolio .container .two #paper {
+  height: 247px;
+}
+.porfolio .container .three {
+  flex: 35.5%;
+  max-width: 35.5%;
+  padding: 0px;
+}
+.porfolio .container .three #line,
+.porfolio .container .three #inline {
+  display: inline;
+}
+.porfolio .container .grid img {
+  vertical-align: middle;
+}
+@media (max-width: 800px) {
+  .porfolio .container .grid {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .porfolio .container .grid {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*sub*/
+.sub .in {
+  background-color: red;
+  color: white;
+  opacity: 0.8;
+  padding-bottom: 75px;
+}
+.sub .in h5 {
+  font-family: Roboto;
+  font-size: 20px;
+  padding-top: 100px;
+  font-weight: lighter;
+}
+.sub .in hr {
+  margin-left: 0px;
+  width: 8%;
+  margin-top: 20px;
+}
+.sub .in p {
+  font-family: Open Sans;
+  font-size: 12.53px;
+}
+.sub .in input {
+  background-color: red;
+  border: 1px solid;
+  padding: 10px 120px 10px 20px;
+}
+.sub .in ::placeholder {
+  color: white;
+}
+.sub .in button {
+  background-color: red;
+  border: 1px solid;
+  padding: 10px 25px;
+  margin-left: -4px;
+}
+/*team*/
+.team {
+  padding-bottom: 78px;
+}
+.team .intro {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.team .col-sm-3 {
+  padding-top: 95px;
+  text-align: center;
+}
+.team .col-sm-3 h6 {
+  font-family: Roboto;
+  font-size: 17px;
+  padding-top: 35px;
+}
+.team .col-sm-3 span {
+  font-family: Roboto;
+  font-size: 12px;
+}
+.team .col-sm-3 .img {
+  position: relative;
+}
+.team .col-sm-3 .over {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  text-align: center;
+  bottom: 15px;
+  right: 15px;
+  left: 15px;
+  background-color: red;
+  color: white;
+  padding-bottom: 15px;
+}
+.team .col-sm-3 .over p {
+  font-family: Roboto;
+  font-size: 11px;
+  padding: 30px 20px 10px 20px;
+}
+.team .col-sm-3 .over i {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin: auto;
+  margin-left: 5px;
+}
+.team .col-sm-3 .over .fa.fa-facebook {
+  padding: 7px 10px;
+}
+.team .col-sm-3 .img:hover .over {
+  opacity: 1;
+}
+/*client*/
+.client {
+  color: white;
+  text-align: center;
+}
+.client .in {
+  background-color: #000000;
+  opacity: 0.8;
+}
+.client .in ol {
+  margin-bottom: 40px;
+}
+.client .in ol li {
+  border-color: red;
+}
+.client .in ol .active {
+  border-color: red;
+  background-color: red;
+}
+.client .in .container {
+  padding-bottom: 55px;
+}
+.client .in .container h6 {
+  font-family: Open Sans;
+  font-size: 18px;
+}
+.client .in .container hr {
+  background-color: white;
+}
+.client .in .container p {
+  width: 840px;
+  margin: auto;
+}
+.client .in .container img {
+  padding: 45px 0px;
+  display: block;
+  margin: auto;
+}
+.client .in .container h5 {
+  font-family: Roboto;
+  font-size: 20px;
+  color: red;
+  padding: 45px 0px;
+}
+/*blog*/
+.blog #intro {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.blog .container {
+  margin-top: 100px;
+}
+.blog .container .col-sm-6 {
+  position: relative;
+}
+.blog .container .col-sm-6 .over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  color: white;
+  padding-top: 120px;
+}
+.blog .container .col-sm-6 .over .inside {
+  margin-left: 20px;
+}
+.blog .container .col-sm-6 .over h6 {
+  font-family: Roboto;
+  font-size: 16.01px;
+}
+.blog .container .col-sm-6 .over span {
+  font-family: Roboto;
+  font-size: 14.01px;
+}
+.blog .container .col-sm-6 .over hr {
+  height: 1px;
+  width: 10%;
+  background-color: white;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.blog .container .col-sm-6 .over p,
+.blog .container .col-sm-6 .over label {
+  font-family: Open Sans;
+  font-size: 12.01px;
+}
+.blog .container .col-sm-6 .over label {
+  font-weight: lighter;
+  margin-left: 10px;
+}
+/*pricing table*/
+.table .container {
+  width: 1096px;
+}
+.table p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.table .panel.panel-default {
+  margin-top: 95px;
+}
+.table .panel.panel-default:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.table .panel.panel-default:hover button {
+  background-color: red;
+  color: white;
+}
+.table .panel.panel-default .panel-heading h5 {
+  padding: 25px 0px;
+  font-size: 20px;
+  text-align: center;
+}
+.table .panel.panel-default .panel-body {
+  font-family: Open Sans;
+  font-size: 13px;
+  text-align: center;
+}
+.table .panel.panel-default .panel-body .list-group {
+  margin: -16px;
+}
+.table .panel.panel-default .x {
+  font-family: Roboto;
+  font-size: 20px;
+}
+.table .panel.panel-default .y {
+  padding: 15px 0px;
+}
+.table button {
+  width: 40%;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*contact*/
+.contact {
+  font-family: Open Sans;
+  font-size: 14px;
+}
+.contact p {
+  font-family: Open Sans;
+  font-size: 14px;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: grey;
+}
+.contact .container {
+  width: 915px;
+  margin-top: 90px;
+  margin-bottom: 85px;
+}
+.contact .container textarea {
+  width: 100%;
+  margin-top: 24px;
+}
+.contact .container input {
+  padding: 10px;
+  width: 47%;
+}
+.contact .container #name {
+  margin-right: 22px;
+}
+.contact .container .col-sm-1 ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+.contact .container .col-sm-1 ul li {
+  font-size: 2em;
+  color: red;
+  padding: 15px;
+}
+.contact .container .col-sm-4 {
+  margin-top: 60px;
+}
+.contact .container .col-sm-4 li {
+  list-style-type: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  color: grey;
+  padding-bottom: 40px;
+}
+.contact .container button {
+  border-radius: 0px;
+  width: 27%;
+  margin-top: 24px;
+  padding: 10px;
+}
+/*footer*/
+footer {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: Open Sans;
+  font-size: 15px;
+}
